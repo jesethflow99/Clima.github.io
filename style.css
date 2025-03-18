@@ -1,0 +1,37 @@
+iframe {
+    width: 98%;
+    height: 80vh;
+    border: none;
+    border-radius: 20px;
+    margin: auto;
+}
+body {
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(60deg, #00c6ff, #0072ff, #6a11cb, #2575fc, #34e89e, #0f4b61);
+    background-size: 300% 300%;
+    animation: aurora 10s ease infinite;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Animación de cambio gradual de colores */
+@keyframes aurora {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+
+    font-family: 'Arial', sans-serif;
+}

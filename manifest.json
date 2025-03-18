@@ -1,0 +1,17 @@
+{
+    "name": "Pronostico del Clima",
+    "short_name": "Clima",
+    "description": "PWA de monitoreo del Clima en tiempo real",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#000000",
+    "theme_color": "#0072ff",
+    "icons": [
+      {
+        "src": "/icon.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }
+    ]
+  }
+  
